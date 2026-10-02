@@ -7,6 +7,9 @@ import { Button } from "@/components/ui/Button";
 import {
   Share2,
   Code2,
+  Palette,
+  Video,
+  Users,
   CheckCircle2,
 } from "lucide-react";
 
@@ -30,7 +33,7 @@ const servicesList: ServiceItem[] = [
     description:
       "Kami menyusun strategi konten harian dan bulanan yang relevan dengan target pasar Anda di Instagram, TikTok, dan Facebook, serta mengelola iklan berbayar (Meta & Google Ads) untuk meningkatkan penjualan.",
     imageSrc:
-      "/assets/images/banner/digital-marketing/porto unipic_de'foma.png",
+      "/assets/images/banner/master-banner/banner/digital marketing.png",
     deliverables: [
       "Perencanaan konten bulanan (Editorial Calendar)",
       "Produksi konten visual dan video pendek (Reels & TikTok)",
@@ -40,13 +43,31 @@ const servicesList: ServiceItem[] = [
     inquiryQuery: "Digital Marketing & Social Media Management",
   },
   {
+    id: "brand-design",
+    tabTitle: "Brand & Design",
+    icon: Palette,
+    headline: "Identitas Visual, Desain Logo & Brand Guidelines",
+    description:
+      "Membangun identitas visual yang khas, profesional, dan berkesan kuat bagi brand Anda. Mulai dari perancangan logo primer, palet warna, tipografi, hingga panduan visual komprehensif.",
+    imageSrc:
+      "/assets/images/banner/master-banner/banner/brand & design.png",
+    deliverables: [
+      "Desain logo primer, sekunder, dan ikon aplikasi",
+      "Buku panduan identitas merek (Brand Guidelines)",
+      "Desain kemasan produk (Packaging) & label eksklusif",
+      "Perlengkapan promosi: kartu nama, sales kit & stationery",
+    ],
+    inquiryQuery: "Brand & Design Identity",
+  },
+  {
     id: "web-development",
     tabTitle: "Web Development",
     icon: Code2,
     headline: "Pembuatan Website Modern, Responsif & Cepat",
     description:
       "Website profesional yang dirancang agar tampil optimal di layar ponsel maupun komputer. Dilengkapi struktur SEO yang baik dan alur navigasi yang memudahkan pengunjung melakukan pemesanan.",
-    imageSrc: "/assets/images/banner/website/porto unipic_fast website.png",
+    imageSrc:
+      "/assets/images/banner/master-banner/banner/web development.png",
     deliverables: [
       "Landing page promosi produk dengan konversi tinggi",
       "Website profil perusahaan (Company Profile)",
@@ -54,6 +75,40 @@ const servicesList: ServiceItem[] = [
       "Pemeliharaan berkala, backup rutin, dan optimasi kecepatan",
     ],
     inquiryQuery: "Web Development & Landing Page",
+  },
+  {
+    id: "advertising-video",
+    tabTitle: "Advertising & Video",
+    icon: Video,
+    headline: "Produksi Video Komersial, TVC & Iklan Kreatif",
+    description:
+      "Produksi video berkualitas sinematik untuk kebutuhan iklan komersial, profil perusahaan, hingga konten video berskala besar yang siap memikat audiens dan mendorong aksi nyata.",
+    imageSrc:
+      "/assets/images/banner/master-banner/banner/advertising & video.png",
+    deliverables: [
+      "Video komersial iklan TVC & digital campaign",
+      "Video profil perusahaan (Company Profile Video)",
+      "Animasi & motion graphics promosi produk",
+      "Sesi foto komersial profesional di studio maupun on-location",
+    ],
+    inquiryQuery: "Advertising & Video Commercial",
+  },
+  {
+    id: "kol-management",
+    tabTitle: "KOL Management",
+    icon: Users,
+    headline: "Aktivasi & Manajemen Influencer / KOL Terarah",
+    description:
+      "Menghubungkan brand Anda dengan Key Opinion Leaders (KOL) dan influencer yang relevan untuk memperluas jangkauan promosi, membangun kepercayaan audiens, dan meningkatkan konversi secara autentik.",
+    imageSrc:
+      "/assets/images/banner/master-banner/banner/KOL management.png",
+    deliverables: [
+      "Riset dan kurasi KOL sesuai target market (Niche Audience)",
+      "Penyusunan creative brief dan pengawasan kualitas konten",
+      "Manajemen kontrak, negosiasi, dan jadwal penayangan",
+      "Analisis komprehensif metrik engagement dan jangkauan kampanye",
+    ],
+    inquiryQuery: "KOL & Influencer Management",
   },
 ];
 

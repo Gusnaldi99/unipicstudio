@@ -49,3 +49,18 @@ Banner portofolio digital marketing berukuran rasio lanskap resolusi tinggi (350
 | `logo-bca.webp`          | `/assets/images/clients/logo-bca.webp`          | BCA           |
 | `logo-lazada.webp`       | `/assets/images/clients/logo-lazada.webp`       | Lazada        |
 | `logo-pertamina.webp`    | `/assets/images/clients/logo-pertamina.webp`    | Pertamina     |
+
+---
+
+## 4. Banner Master Layanan (`public/assets/images/banner/master-banner/banner/`)
+
+Banner master layanan berukuran rasio lanskap resolusi tinggi (3507 x 2480 px):
+
+| Nama File                 | Path Publik                                                              | Layanan               |
+| :------------------------ | :----------------------------------------------------------------------- | :-------------------- |
+| `digital marketing.png`   | `/assets/images/banner/master-banner/banner/digital marketing.png`       | Digital Marketing     |
+| `brand & design.png`      | `/assets/images/banner/master-banner/banner/brand & design.png`          | Brand & Design        |
+| `web development.png`     | `/assets/images/banner/master-banner/banner/web development.png`         | Web Development       |
+| `advertising & video.png` | `/assets/images/banner/master-banner/banner/advertising & video.png`     | Advertising & Video   |
+| `KOL management.png`      | `/assets/images/banner/master-banner/banner/KOL management.png`          | KOL Management        |
+
